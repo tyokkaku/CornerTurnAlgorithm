@@ -9,7 +9,7 @@ public class Board {
     private static final int Left = 2;
     private static final int Top = 3;
 
-    // 二次元配列の初期値
+    // ボードの初期値
     private static final int InitializeNum = 0;
 
     // 現在の進行方向
@@ -23,7 +23,7 @@ public class Board {
     /**
      * コンストラクタ。
      *
-     * @param boardSideLength 二次元配列の一辺の長さ
+     * @param boardSideLength ボードの一辺の長さ
      */
     private Board(int boardSideLength) {
         this.boardSideLength = boardSideLength;
@@ -125,7 +125,7 @@ public class Board {
     /**
      * ボードを初期化する
      *
-     * @param board 二次元配列
+     * @param board ボード
      */
     private void prepareBoard(Board board) {
 
